@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application Rama</string>
+    <string name="nombre_de_la_aplicacion">Nombre de la aplicaion</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre_de_boton_GPS">GPS</string>
+    <string name="nombre_de_boton_comunas">COMUNAS</string>
+    <string name="nombre_de_boton_salir">Salir</string>
+
+</resources>

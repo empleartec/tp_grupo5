@@ -1,6 +1,5 @@
 package com.example.jhonny.myapplicationrama;
 
-
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -10,25 +9,17 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class MainActivityDeInicio extends ActionBarActivity {
+public class MainActivityDndEstc extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity_de_inicio);
-        Button botonGPS=(Button)findViewById(R.id.idBotonGPS);
-        botonGPS.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_main_activity_dnd_estc);
+        Button botonBuscar=(Button)findViewById(R.id.idBotonBuscar);
+        botonBuscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(), MainActivityGPS.class);
-                startActivity(intent);
-            }
-        });
-        Button botonComuna=(Button)findViewById(R.id.idBotonComunas);
-        botonComuna.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(), MainActivityListCom.class);
+                Intent intent=new Intent(getApplicationContext(),MainActivityMostrarMapa.class);
                 startActivity(intent);
             }
         });
@@ -38,7 +29,7 @@ public class MainActivityDeInicio extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main_activity_de_inicio, menu);
+        getMenuInflater().inflate(R.menu.menu_main_activity_dnd_estc, menu);
         return true;
     }
 

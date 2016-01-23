@@ -11,5 +11,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="nombre_de_boton_mi_ubicanon_actual">MI UBICACION ACTUAL</string>
     <string name="nombre_de_boton_como_llegar">COMO LLEAGAR</string>
+    <string name="title_activity_main_activity_list_com">MainActivityListCom</string>
+    <string name="title_activity_main_activity_dnd_estc">MainActivityDndEstc</string>
+    <string name="title_activity_main_activity_mostrar_mapa">MainActivityMostrarMapa</string>
+    <string name="donde_estacionar">DONDE ESTACIONAR</string>
+    <string name="buscar">BUSCAR</string>
 
 </resources>

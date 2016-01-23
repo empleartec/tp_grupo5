@@ -1,9 +1,12 @@
 package com.example.jhonny.myapplicationrama;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivityGPS extends ActionBarActivity {
@@ -12,6 +15,22 @@ public class MainActivityGPS extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity_gps);
+        Button botonMiUbicacionActual=(Button)findViewById(R.id.idBotonMiUbicacionActual);
+        botonMiUbicacionActual.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),MainActivityMostrarMapa.class);
+                startActivity(intent);
+            }
+        });
+        Button botonComoLlegar=(Button)findViewById(R.id.idBotonComoLlegar);
+        botonComoLlegar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),MainActivityDndEstc.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

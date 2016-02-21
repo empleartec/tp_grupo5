@@ -14,7 +14,8 @@ public class MainActivityDeInicio extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState); //
+        super.onCreate(savedInstanceState);
+        //Este boton nos redirecciona al layout activity_main_activity_gps.xml de la clase MainActivityGPS.class
         setContentView(R.layout.activity_main_activity_de_inicio);//Muestra la pantalla
         Button botonGPS=(Button)findViewById(R.id.idBotonGPS);//
         botonGPS.setOnClickListener(new View.OnClickListener() {
@@ -24,6 +25,7 @@ public class MainActivityDeInicio extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+        //Este boton nos redirecciona al layout activity_main_activity_list_com.xml de la clase MainActivityListCom.class
         Button botonComuna=(Button)findViewById(R.id.idBotonComunas);
         botonComuna.setOnClickListener(new View.OnClickListener() {
             @Override

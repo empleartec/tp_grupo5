@@ -36,7 +36,7 @@ public class MainActivityMostrarMapa extends ActionBarActivity {
         super.onPause();
         mapView.onPause();
     }
-
+///
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

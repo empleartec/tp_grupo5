@@ -20,6 +20,7 @@ public class MainActivityListCom extends ActionBarActivity {
         //creamos y cargamos la lista ue va a recivir el constructor del adapter
         List<Comuna> comunas=new ArrayList<Comuna>();
         comunas.add(new Comuna("comuna 1", R.drawable.comuna_1));
+        /*
         comunas.add(new Comuna("comuna 2", R.drawable.comuna_2));
         comunas.add(new Comuna("comuna 3", R.drawable.comuna_3));
         comunas.add(new Comuna("comuna 4", R.drawable.comuna_4));
@@ -34,7 +35,7 @@ public class MainActivityListCom extends ActionBarActivity {
         comunas.add(new Comuna("comuna 13", R.drawable.comuna_13));
         comunas.add(new Comuna("comuna 14", R.drawable.comuna_14));
         comunas.add(new Comuna("comuna 15", R.drawable.comuna_15));
-
+        */
         //creamos el objeto adapter
         AdapterDeListaDeComunas adapterDeListaDeComunas=new AdapterDeListaDeComunas((ArrayList<Comuna>) comunas,this);
 

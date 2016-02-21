@@ -24,27 +24,6 @@
 
 
         <activity
-            android:name=".MainActivityDeInicio"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MainActivityGPS"
-            android:label="@string/title_activity_main_activity_gps" >
-        </activity>
-        <activity
-            android:name=".MainActivityListCom"
-            android:label="@string/title_activity_main_activity_list_com" >
-        </activity>
-        <activity
-            android:name=".MainActivityDndEstc"
-            android:label="@string/title_activity_main_activity_dnd_estc" >
-        </activity>
-        <activity
             android:name=".MainActivityMostrarMapa"
             android:label="@string/title_activity_main_activity_mostrar_mapa" >
         </activity>

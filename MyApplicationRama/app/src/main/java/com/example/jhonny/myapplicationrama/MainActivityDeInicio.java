@@ -2,8 +2,8 @@ package com.example.jhonny.myapplicationrama;
 
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,9 +14,9 @@ public class MainActivityDeInicio extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity_de_inicio);
-        Button botonGPS=(Button)findViewById(R.id.idBotonGPS);
+        super.onCreate(savedInstanceState); //
+        setContentView(R.layout.activity_main_activity_de_inicio);//Muestra la pantalla
+        Button botonGPS=(Button)findViewById(R.id.idBotonGPS);//
         botonGPS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
